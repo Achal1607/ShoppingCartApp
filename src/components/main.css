@@ -1,0 +1,92 @@
+
+body{
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.heading{
+    margin-top: 0px;
+    padding: 25px;
+    font-size: 50px;
+    background-color: #BDBDBD;
+    border-bottom: solid 10px black;
+}
+
+.table{
+    color:whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    color:white;
+    font-size: 30px;
+    border-bottom: solid 5px rgb(154, 108, 197);
+    padding: 15px;
+}
+
+.cart{
+    float: right;    
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout{
+    height: 50px;
+    margin-right: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(50, 182, 50);
+    color: black;
+    font-weight: bold;
+}
+
+.checkout:hover{
+    background-color: yellowgreen;
+}
+
+.subheading{
+    width: 60px;
+    border-bottom:solid 5px grey ;
+    padding: 0px 150px 0px 150px;
+}
+
+.sub{
+    padding:0px;
+}
+
+.form{
+    text-align: left;
+    font-weight: bold;
+}
+
+.form input,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type=radio]{
+padding: 10px;
+display: inline-block;     
+}
+
+.form label{
+    padding:10px;
+}
